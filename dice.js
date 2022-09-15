@@ -16,12 +16,9 @@ function roll(){
         });
         let dieOneValue = Math.floor(Math.random()*6)
         ;
-        let dieTwoValue = Math.floor(Math.random()*6)
-        ;
-        console.log(dieOneValue,dieTwoValue);
+        console.log(dieOneValue);
         document.querySelector("#dice-1").setAttribute("src", images[dieOneValue]);
-        document.querySelector("#dice-2").setAttribute("src", images[dieTwoValue]);
-        document.querySelector("#total").innerHTML = "Your roll is " + ((dieOneValue +1) + (dieTwoValue +1));
+        document.querySelector("#total").innerHTML = "Your roll is " + ((dieOneValue +1));
     },
     1000
     );
