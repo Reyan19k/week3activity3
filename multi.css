@@ -7,7 +7,7 @@
 body{
     height: 100vh;
     background: linear-gradient(
-        #dde029,
+        #fbff01,
         #0a0a0a
     ) 0 100% no-repeat;
     background-size: 100%;
@@ -19,7 +19,7 @@ body{
     transform: translate(-50%, -50%);
     top: 50%;
     left: 50%;
-    background-color: #ffffff;
+    background-color: #ffffffe8;
     box-shadow: 0 5px 35px rgba(50,50,50,0.2);
     border-radius: 8px;
     display: flex;
@@ -48,8 +48,8 @@ p{
 .player-2{
     padding-right: 40px;
 }
-button{
-    background-color: #f3f71b;
+.button-1{
+    background-color: #ffee05ee;
     border: none;
     outline: none;
     color:black;
@@ -59,6 +59,19 @@ button{
     border-radius: 5px;
     cursor: pointer;
     font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+}
+.button-2 {
+    background-color: #070707ee;
+    border: none;
+    outline: none;
+    color: #dde029;
+    padding: 15px 0;
+    width: 200px;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Oswald", sans-serif;
     font-size: 20px;
 }
 img{
@@ -80,4 +93,13 @@ img{
     100%{
         transform: rotate(8deg);
     }
+}
+.single{
+    margin: 20px;
+    text-decoration: none;
+}
+.single a{
+    margin: 20px;
+    text-decoration: none;
+    color: #dde029;
 }

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,14 +8,21 @@
     <link rel="stylesheet" href="dice.css">
     <title>Document</title>
 </head>
+
 <body>
     <div class="container">
         <div class="dice-con">
-            <img  id="dice-1">
+            <img id="dice-1">
         </div>
         <p id="total"></p>
-        <button onclick="roll()">Roll the Dice</button>
+        <button class="button-1" onclick="roll()">Roll the Dice</button>
+    </div>
+    <div class="multiplayer">
+        <button class="button-2">
+            <a href="./multi.html">Play multiplayer</a>
+        </button>
     </div>
     <script src="./dice.js"></script>
 </body>
+
 </html>
