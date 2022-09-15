@@ -18,7 +18,7 @@ function roll(){
         ;
         console.log(dieOneValue);
         document.querySelector("#dice-1").setAttribute("src", images[dieOneValue]);
-        document.querySelector("#total").innerHTML = "Your roll is " + ((dieOneValue +1));
+        document.querySelector("#total").innerHTML = "Your roll is : " + ((dieOneValue +1));
     },
     1000
     );
