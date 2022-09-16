@@ -62,10 +62,10 @@ p{
     font-size: 20px;
 }
 .button-2 {
-    background-color: #070707ee;
+    background-color: #070707e0;
     border: none;
     outline: none;
-    color: #dde029;
+    color: #ffee05ee;
     padding: 15px 0;
     width: 200px;
     letter-spacing: 1px;
@@ -101,5 +101,5 @@ img{
 .single a{
     margin: 20px;
     text-decoration: none;
-    color: #dde029;
+    color: #ffee05ee;
 }
